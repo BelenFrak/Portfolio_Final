@@ -1,4 +1,3 @@
-import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
 const TOKEN_KEY = 'AuthToken';
@@ -13,7 +12,7 @@ export class TokenService {
 
   roles: Array<string> =[];
 
-  constructor(private http: HttpClient) { }
+  constructor() { }
 
   public setToken (token:string): void {
     window.sessionStorage.removeItem(TOKEN_KEY);
