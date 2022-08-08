@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row">
+        <div>
+            <form (ngSubmit)="onCreate()" novalidate #f="ngForm">
+                <div class="form-group">
+                    <label for="progreso">Progreso de la skill (numero)</label>
+                    <input type="number" class="form-control" id="progreso" name="progreso" [(ngModel)]="progreso" required>
+                </div>
+                <div class="form-group">
+                    <label for="img">Url de imagen de la skill</label>
+                    <input type="text" class="form-control" id="img" name="img" [(ngModel)]="img" required>
+                </div>
+                <button class="btn btn-secondary">
+                    Agregar skill!
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+

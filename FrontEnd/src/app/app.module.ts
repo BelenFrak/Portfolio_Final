@@ -21,6 +21,11 @@ import { NewExperienciaComponent } from './components/experiencia/new-experienci
 import { EditeducacionComponent } from './components/educacion/editeducacion.component';
 import { NeweducacionComponent } from './components/educacion/neweducacion.component';
 import { EducacionComponent } from './components/educacion/educacion.component';
+import { EditExperienciaComponent } from './components/experiencia/editexperiencia.component';
+import { EditskillComponent } from './components/hys/editskill.component';
+import { NewskillComponent } from './components/hys/newskill.component';
+import { EditproyectoComponent } from './components/proyecto/editproyecto.component';
+import { NewproyectoComponent } from './components/proyecto/newproyecto.component';
 
 
 @NgModule({
@@ -40,6 +45,11 @@ import { EducacionComponent } from './components/educacion/educacion.component';
     EducacionComponent,
     EditeducacionComponent,
     NeweducacionComponent,
+    EditExperienciaComponent,
+    EditskillComponent,
+    NewskillComponent,
+    EditproyectoComponent,
+    NewproyectoComponent,
 ],
 
   imports: [

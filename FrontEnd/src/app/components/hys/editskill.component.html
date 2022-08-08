@@ -1,0 +1,19 @@
+<div class="container" *ngIf="skill">
+    <div class="row">
+        <div>
+            <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+                <div class="form-group">
+                    <label for="progreso">Progreso de la skill (numero)</label>
+                    <input type="number" class="form-control" id="progreso" name="progreso"[(ngModel)]="skill.progreso" required>
+                </div>
+                <div class="form-group">
+                    <label for="img">Url de imagen de la skill</label>
+                    <input type="text" class="form-control" id="img" name="img"[(ngModel)]="skill.img" required>
+                </div>
+                <button class="btn btn-secondary">
+                    Editar skill!
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

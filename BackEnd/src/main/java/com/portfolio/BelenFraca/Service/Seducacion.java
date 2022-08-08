@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.portfolio.BelenFraca.Service;
 
 import com.portfolio.BelenFraca.Entity.Educacion;
@@ -28,12 +25,15 @@ public class Seducacion {
     public Optional<Educacion> getByNombreE(String nombreE){
         return rEducacion.finByNombreE(nombreE);
     }
+    
     public void save(Educacion educacion){
         rEducacion.save(educacion);
     }
+    
     public void delete(int id){
         rEducacion.deleteById(id);
     }
+    
     public boolean existsById(int id){
         return rEducacion.existsById(id);
     }
