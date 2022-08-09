@@ -39,7 +39,7 @@ public class CEducacion {
     @GetMapping("/detail/{id}")
     public ResponseEntity<Educacion> getById(@PathVariable("id") int id){
       if(!sEducacion.existsById(id)){
-          return new ResponseEntity (new Mensaje("No existe erl ID"), HttpStatus.BAD_REQUEST);   
+          return new ResponseEntity (new Mensaje("No existe el ID"), HttpStatus.BAD_REQUEST);   
       }
       
         Educacion educacion = sEducacion.getOne(id).get();
