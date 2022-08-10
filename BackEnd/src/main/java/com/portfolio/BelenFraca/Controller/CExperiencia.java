@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.portfolio.BelenFraca.Controller;
 
 import com.portfolio.BelenFraca.Dto.dtoExperiencia;
@@ -23,13 +20,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("explab")
-@CrossOrigin(origins = "http://portfolio-belenfraca.web.app")
+@RequestMapping("/explab")
+@CrossOrigin(origins = "http://localhost:4200")
 public class CExperiencia {
 
     @Autowired
     SExperiencia sExperiencia;
-
+    
+    @GetMapping("/lista")
     public ResponseEntity<List<Experiencia>> lis() {
         List<Experiencia> list = sExperiencia.list();
         return new ResponseEntity(list, HttpStatus.OK);

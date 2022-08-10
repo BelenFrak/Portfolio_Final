@@ -34,7 +34,7 @@ educacion: Educacion[]= [];
       data=> {
         this.cargarEducacion();
       },err => {
-        alert("No se pudo eliminar");
+        alert("No se pudo eliminar, debe ser Admin");
       }
     )
   }
