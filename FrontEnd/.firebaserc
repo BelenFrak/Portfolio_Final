@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "belenfracafrontend"
-  }
+    "default": "portfolio-belenfraca",
+    "belenfraca": "portfolio-belenfraca"
+  },
+  "targets": {},
+  "etags": {}
 }
