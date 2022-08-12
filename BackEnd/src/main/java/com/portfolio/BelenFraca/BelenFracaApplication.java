@@ -17,7 +17,7 @@ public class BelenFracaApplication {
 		return new WebMvcConfigurer() {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("**").allowedOrigins("Http://localhost:4200").allowedMethods("*").allowedHeaders("*");
+				registry.addMapping("**").allowedOrigins("https://portfolio-belenfraca.web.app/").allowedMethods("*").allowedHeaders("*");
 			}
 		};
 	}
