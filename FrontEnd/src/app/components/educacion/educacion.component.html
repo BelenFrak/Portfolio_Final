@@ -5,8 +5,8 @@
           Agregar educación
   </button>
   </div>
-   <div class="col-xs-1 col-sm-1 col-md-1 col lg 1"></div>
-  <div class=" col-xs-11 col-sm-11 col-md-11 col-lg-11 ">
+   <div class="col lg 1"></div>
+  <div class="col-lg-11 ">
       <table class="table">
           <tbody>
               <tr *ngFor="let Educacion of educacion">
@@ -16,11 +16,10 @@
                   <td>{{Educacion.descripcionE}}</td>
                   <td *ngIf="isLogged">
                       <button class="btn btn-light" routerLink="/editedu/{{Educacion.id}}">
-                          <i class="bi bi-pencil-fill"></i> EDITAR</button>
-                  </td>
-                  <td *ngIf="isLogged">
+                          <i class="bi bi-pencil-fill"></i> </button>
+                
                       <button class="btn btn-danger" (click)="delete(Educacion.id)">
-                          <i class="bi bi-trash-fill"></i> BORRAR</button>
+                          <i class="bi bi-trash-fill"></i> </button>
                   </td>
               </tr>
           </tbody>
