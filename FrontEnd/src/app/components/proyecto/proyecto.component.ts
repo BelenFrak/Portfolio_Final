@@ -34,6 +34,7 @@ proyecto: Proyecto[]= [];
   if(id!= undefined){
     this.proyectoS.delete(id).subscribe(
       data=> {
+        alert ("Elemento eliminado correctamente");
         this.cargarProyecto();
       },err => {
         alert("No se pudo eliminar, debe ser Admin");
