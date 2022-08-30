@@ -39,5 +39,5 @@ Todos los conocimientos para poder crear este proyecto fueron adquiridos gracias
 ------------
 
 
- **Para dudas y sugerencias** :tw-1f4e7: belenfrak@gmail.com | belenfrak@hotmail.com
+ **Para dudas y sugerencias** : belenfrak@gmail.com | belenfrak@hotmail.com
 
