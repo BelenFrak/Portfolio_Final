@@ -1,27 +1,42 @@
-# Proyecto
+# 💻 Portfolio Web Full Stack  |  MARÍA BELÉN FRACA
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.5.
+Este es mi portfolio personal, creado como una aplicación web ya que me permite cambiar la gran mayoria de su información mediante una interfas de edición. Espero que lo disfuten.
 
-## Development server
+Link del portfolio online: https://portfolio-belenfraca.web.app/
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## **📝 Descripción**
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Este portfolio fué realizado como** proyecto final integrador** a presentar en el curso #YoProgramo de Argentina Programa.**
 
-## Build
+Se trata de una **Single Page Application (SPA) **** donde utilcé las siguientes **herramientas  🛠**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+-  **Angular** como framework para el frontend
+-  **Spring Boot** como framework para el backend
+- **Spring Security** modulo de seguridad de Spring
+- **JWT** estandar para generar tokens de seguridad
+-  **MySQL** base de datos del proyecto, alojada en **Clever Cloud**
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Los lenguajes utilizados dentro del proyecto:
 
-## Running end-to-end tests
+** Java** lenguaje utilizado en el backend en conjunto con Spring boot
+** JavaScript **lenguaje utilizado del lado de frontend y en el template
+** TypeScript** lenguaje utilizado en el framework Angular
+** HTML** se utiliza  en el frontend 
+** CSS** se utiliza  en el frontend
+** Bootstrap** framework para trabajar en el formulario de Login (Bootstrap Login form) , los íconos para ejecutar las acciones de editar, eliminar y agregar (Bootstrap Icons).
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+------------
 
-## Further help
+## Reconocimientos 📚
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Todos los conocimientos para poder crear este proyecto fueron adquiridos gracias al programa Argentina programa etapa #YoProgramo.
+
+** Argentina programa - #YoProgramo****- Link  [aquí](https://argentinaprograma.inti.gob.ar/ "aquí")
+
+
+------------
+
+
+ **Para dudas y sugerencias** :tw-1f4e7: belenfrak@gmail.com | belenfrak@hotmail.com
