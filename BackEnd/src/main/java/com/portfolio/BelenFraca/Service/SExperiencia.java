@@ -36,8 +36,9 @@ public class SExperiencia {
     public boolean existsById(int id){
         return rExperiencia.existsById(id);
     }
-    public boolean existesByNombreE(String nombreE){
+    public boolean existsByNombreE(String nombreE){
         return rExperiencia.existsByNombreE(nombreE);
     }
+
 }
     

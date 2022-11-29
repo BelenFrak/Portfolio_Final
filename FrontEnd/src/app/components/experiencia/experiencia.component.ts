@@ -14,6 +14,7 @@ export class ExperienciaComponent implements OnInit {
   constructor(private sExperiencia: SExperienciaService, private tokenService: TokenService) { }
 
   isLogged = false;
+  /*isAdmin = false;*/
 
   ngOnInit(): void {
     this.cargarExperiencia();
@@ -22,6 +23,8 @@ export class ExperienciaComponent implements OnInit {
     } else {
       this.isLogged = false;
     }
+    
+    
   }
 
   cargarExperiencia(): void {
@@ -32,7 +35,7 @@ export class ExperienciaComponent implements OnInit {
     if(id != undefined){
       this.sExperiencia.delete(id).subscribe(
         data => {
-          alert ("Elemento eliminado correctamente");
+          alert("Elemento eliminado correctamente");
           this.cargarExperiencia();
         }, err => {
           alert("No se pudo borrar la experiencia");
@@ -41,4 +44,5 @@ export class ExperienciaComponent implements OnInit {
     }
   }
 }
+
 

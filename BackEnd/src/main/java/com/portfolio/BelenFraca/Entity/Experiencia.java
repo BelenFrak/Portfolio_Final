@@ -4,6 +4,7 @@
  */
 package com.portfolio.BelenFraca.Entity;
 
+
 import java.io.Serializable;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -24,16 +25,13 @@ public class Experiencia implements Serializable {
     public Experiencia() {
     }
 
-    public Experiencia(int id, String nombreE, String descripcionE) {
+    public Experiencia(String nombreE, String descripcionE) {
     
         this.nombreE = nombreE;
         this.descripcionE = descripcionE;
     }
-
-    public Experiencia(String nombreE, String descripcionE) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
     
+
     //Getter y Setter
 
     public int getId() {
